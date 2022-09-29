@@ -1,0 +1,53 @@
+// Tables
+// Main Table
+.main-table {
+  width: 100%;
+  border-radius: 7px;
+  border: none !important;
+  border: 1px solid $light-grey-color !important;
+  * {
+    border: none !important;
+  }
+  tr {
+    border: 1px solid $light-grey-color !important;
+    th {
+      background-color: $light-greey;
+      color: $text-greey;
+      font-size: 12px;
+      font-weight: bold;
+      white-space: nowrap;
+      padding: 10px;
+    }
+    td {
+      background-color: $white-color;
+      font-size: 14px;
+      padding: 10px;
+    }
+  }
+}
+
+.table-dark th {
+  background-color: #243848;
+}
+
+.table,
+.table thead {
+  box-shadow: 0 0 5px 0 #ddd;
+  border-radius: 5px;
+}
+
+.table {
+  .img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    object-fit: cover;
+  }
+  td {
+    vertical-align: middle;
+  }
+}

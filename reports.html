@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Normalize -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Main File Css  -->
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- Font Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Start Top Nav Bar -->
+    <nav class="top-nav">
+      <div class="container py-1">
+        <a href="#" class="tog-show" data-show=".top-nav .list-item">
+          <i class="fa-solid fa-bars"></i>
+        </a>
+        <div class="holder d-flex flex-grow-1 align-items-center justify-content-center">
+          <h6 class="mb-0 text-fs-3 me-5 pe-5">الإدارة العامة للكهرباء والإنارة بالمنطقة الشرقية الدمام</h6>
+        </div>
+        <div class="dropdown-hover" data-show="dropdown-lang">
+          <div class="icon-drop">
+            <i class="fa-solid fa-user icon"></i>
+          </div>
+          <p class="text">admin</p>
+          <div class="arrow-icon">
+            <i class="fa-solid fa-angle-down"></i>
+          </div>
+          <ul class="listis-item" id="dropdown-lang">
+            <li class="item-drop">
+              <a href="#">
+                <p class="text">الدعم الفني</p>
+              </a>
+            </li>
+            <li class="item-drop">
+              <a href="#">
+                <p class="text">تسجيل الخروج</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Top Nav Bar -->
+    <!-- Start Bottom Nav Bar -->
+    <nav class="bottom-nav">
+      <div class="container">
+        <div class="holder_nav d-flex align-items-center gap-2">
+          <div class="brand">
+            <img src="img/logo.png" alt="logo" width="50">
+          </div>
+          <a href="#" class="tog-show" data-show=".bottom-nav .list-item">
+            <i class="fa-solid fa-bars"></i>
+          </a>
+          <div class="lists_holder d-flex align-items-center justify-content-between flex-grow-1">
+            <ul class="list-item">
+              <li>
+                <a class="item" href="./index.html">
+                  الرئيسية
+                  <i class="i-item fa-solid fa-house"></i>
+                </a>
+              </li>
+              <li>
+                <a class="item" href="addReport.html">
+                  اضافة بلاغ جديد
+                  <i class="i-item fa-solid fa-file-circle-plus"></i>
+                </a>
+              </li>
+              <li>
+                <a class="item" href="reports.html">
+                  البلاغات
+                  <i class="i-item fa-solid fa-paste"></i>
+                </a>
+              </li>
+              <li>
+                <a class="item" href="">
+                  التقارير
+                  <i class="i-item fa-solid fa-file-lines"></i>
+                </a>
+              </li>
+              <li>
+                <a class="item" href="site-settings.html">
+                  الأعدادات
+                  <i class="i-item fa-solid fa-gear"></i>
+                </a>
+              </li>
+            </ul>
+            <ul class="list-item">
+              <li>
+                <a class="item" href="./notice.html">
+                  الأشعارات
+                  <i class="i-item fa-solid fa-bell"></i>
+                  <div class="badge-count">5</div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- End Bottom Nav Bar -->
+    <!-- Start Section -->
+    <section class="main-section">
+      <div class="container">
+        <h4 class="main-heading">البلاغات</h4>
+        <div class="content-box">
+          <div
+            class="btn_holder d-flex align-items-center gap-2 justify-content-center mb-3">
+            <button class="btn btn-sm btn-warning">
+              بلاغات تحت التنفيذ: 15
+            </button>
+            <button class="btn btn-sm btn-danger">بلاغات متاخرة: 12</button>
+          </div>
+          <div class="row row-gap-24 mb-4">
+            <div class="col-sm-6 col-md-4 col-lg-2">
+              <label for="" class="small-label"> بحث برقم البلاغ</label>
+              <select name="" id="" class="form-select">
+                <option value="">بحث....</option>
+              </select>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-2">
+              <label for="" class="small-label"> بحث جوال العميل</label>
+              <select name="" id="" class="form-select">
+                <option value="">بحث....</option>
+              </select>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-2">
+              <label for="" class="small-label"> بحث بالمدينة و الحي</label>
+              <select name="" id="" class="form-select">
+                <option value="">بحث....</option>
+              </select>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <label for="" class="small-label"> بحث بالمقال</label>
+              <select name="" id="" class="form-select">
+                <option value="">بحث....</option>
+              </select>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <label for="" class="small-label"> اظهار الكل حسب التاريخ</label>
+              <select name="" id="" class="form-select">
+                <option value="">بحث....</option>
+              </select>
+            </div>
+          </div>
+          <div
+            class="btn_holder d-flex align-items-center justify-content-end gap-2 mb-3"
+          >
+            <button class="btn btn-main-sm">
+              <i class="fa-solid fa-file-excel"></i>
+              تصدير Excel
+            </button>
+            <button class="btn btn-main-sm">
+              <i class="fa-solid fa-file-pdf"></i>
+              تصدير pdf
+            </button>
+          </div>
+          <div class="table-responsive">
+            <table class="table table-hover">
+              <thead class="table-dark">
+                <tr>
+                  <th>رقم البلاغ</th>
+                  <th>الحي</th>
+                  <th>المبلغ</th>
+                  <th>رقم التواصل</th>
+                  <th>تاريخ البلاغ</th>
+                  <th>رقم البلاغ</th>
+                  <th>حالة البلاغ</th>
+                  <th>عرض</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th>1</th>
+                  <td>الروضة</td>
+                  <td>علي احمد</td>
+                  <td>0555</td>
+                  <td>2022/12/12</td>
+                  <td>34455</td>
+                  <td>تحت التنفيذ</td>
+                  <td>
+                    <a href="" class="btn btn-primary btn-sm">
+                      <i class="fa-solid fa-eye fa-beat-fade"></i>
+                    </a>
+                    <button class="btn btn-sm btn-info">
+                      <i class="fa-solid fa-pen-to-square"></i>
+                    </button>
+                    <button class="btn btn-sm btn-danger">
+                      <i class="fa-solid fa-trash"></i>
+                    </button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Section -->
+    <!-- Start Footer -->
+    <div class="footer-bottom py-3">
+      <div class="container">
+        <div
+          class="d-flex flex-wrap align-items-center justify-content-between gap-3"
+        >
+          <p>جميع الحقوق محفوظة © لـ 2022</p>
+          <img src="./img/footer/copy.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- ENd Footer -->
+    <!-- Js Files -->
+    <script src="js/main.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+  </body>
+</html>
