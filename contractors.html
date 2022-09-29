@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <!-- Font Awesome -->
     <link rel="stylesheet" href="css/all.min.css" />
-    <!-- Main Faile Css  -->
+    <!-- Main File Css  -->
     <link rel="stylesheet" href="css/main.css" />
     <!-- Font Google -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -86,7 +86,7 @@
                 </a>
               </li>
               <li>
-                <a class="item" href="contractors.html">
+                <a class="item" href="">
                   المقاولين
                   <i class="i-item fa-solid fa-trowel-bricks"></i>
                 </a>
@@ -119,72 +119,54 @@
     </nav>
     <!-- End Bottom Nav Bar -->
     <!-- Start Section -->
-    <section class="main-section site-settings">
+    <section class="main-section home">
       <div class="container">
-        <h4 class="main-heading">الأعدادات</h4>
-        <form class="bg-white p-3 rounded-2 shadow">
-          <div class="row g-3">
-            <div class="col-sm-6 col-md-4 col-lg-4">
-              <label for="" class="small-label">اسم الموقع</label>
-              <input type="text" name="" class="form-control" id="" />
+        <h4 class="main-heading">المقاولين</h4>
+        <div class="content-box">
+          <div class="row row-gap-24 mb-3">
+            <div class="col-sm-6 col-md-4">
+              <label for="" class="small-label">اختر المقاول</label>
+              <select name="" id="" class="form-select">
+                <option value="">بحث....</option>
+              </select>
             </div>
-            <div class="col-sm-6 col-md-4 col-lg-4">
-              <label for="" class="small-label">رابط الموقع</label>
-              <input type="text" name="" class="form-control" id="" />
+            <div class="col-sm-6 col-md-4">
+              <label for="" class="small-label"> التاريخ من</label>
+              <input type="date" name="" id="" class="form-control">
             </div>
-            <div class="col-sm-6 col-md-4 col-lg-4">
-              <label class="small-label" for="">رفع شعار الموقع </label>
-              <input
-                type="file"
-                name=""
-                id="logo_file"
-                class="form-control"
-                value=""
-              />
-            </div>
-            <div class="col-12">
-              <div class="app_option d-flex gap-2">
-                <div class="form-check mb-1">
-                  <input
-                    class="form-check-input"
-                    type="checkbox"
-                    value=""
-                    id="off_check"
-                  />
-                  <label class="small-label" for="off_check">
-                    تشغيل الموقع
-                  </label>
-                </div>
-                <div class="form-check mb-1">
-                  <input
-                    class="form-check-input"
-                    type="checkbox"
-                    value=""
-                    id="on_check"
-                  />
-                  <label class="small-label text-danger" for="on_check">
-                    ايقاف الموقع
-                  </label>
-                </div>
-              </div>
-            </div>
-            <div class="col-12">
-              <div class="massage_holder">
-                <div class="form-floating mb-3 w-50">
-                  <textarea
-                    class="form-control w-100"
-                    style="min-height: 100px"
-                    placeholder="Leave a comment here"
-                    id="effect"></textarea>
-                  <label for="effect" class="end-0 small-label">رسالة الاغلاق</label>
-                </div>
-              </div>
+            <div class="col-sm-6 col-md-4">
+              <label for="" class="small-label"> التاريخ الي</label>
+                <input type="date" name="" id="" class="form-control">
             </div>
           </div>
-          <div class="btn_holder text-center">
-            <button class="btn btn-success btn-sm px-4">حفظ</button>
+          <div class="btn_holder d-flex align-items-center justify-content-end gap-2 mb-3">
+            <button class="btn btn-sm btn-warning">
+                <i class="fa-solid fa-print"></i>
+            </button>
           </div>
-        </form>
+          <div class="table-responsive">
+            <table class="table table-hover">
+              <thead class="table-dark">
+                <tr>
+                  <th>المقاول</th>
+                  <th>كل البلاغات</th>
+                  <th>البلاغات المنفذه</th>
+                  <th>البلاغات المتاخرة</th>
+                  <th>التنبيهات</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th>بن علي</th>
+                  <td>55</td>
+                  <td>22</td>
+                  <td>10</td>
+                  <td>2</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
       </div>
     </section>
     <!-- End Section -->
